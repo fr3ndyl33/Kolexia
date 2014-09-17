@@ -1,5 +1,9 @@
 		#pu .nav-pu{
 			height: 100px;
+<<<<<<< HEAD
+=======
+			background-color: pink;
+>>>>>>> 1b17040c78c06ea1f4b081880328fe2c708f6cae
 		}
 		.logo-name{
 			color: #500000;
@@ -9,12 +13,15 @@
 			margin-left: 20px;
 			padding-top: 5px;
 		}
+<<<<<<< HEAD
 		.logo-desc{
 			color: #500000;
 			float: left;
 			margin-top: 60px;
 			margin-left: -105px;
 		}
+=======
+>>>>>>> 1b17040c78c06ea1f4b081880328fe2c708f6cae
 		#pd-line{
 			float: bottom;
 		}
@@ -51,6 +58,7 @@
 		}
 		.tou #copy{
 			font-size: 13px;
+<<<<<<< HEAD
 		}
 		#content{
 			margin-top: 5px;
@@ -86,4 +94,6 @@
 			float: right;
 			margin-top: -100px;
 			background-repeat: no-repeat;
+=======
+>>>>>>> 1b17040c78c06ea1f4b081880328fe2c708f6cae
 		}
