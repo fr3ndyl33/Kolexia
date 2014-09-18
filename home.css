@@ -1,19 +1,12 @@
 		#pu .nav-pu{
 			height: 100px;
 		}
-		.logo-name{
-			color: #500000;
-			float : left;
-		}
-		.logo-name{
-			margin-left: 20px;
-			padding-top: 5px;
+		.logo{
+			margin-top: -40px;
 		}
 		.logo-desc{
 			color: #500000;
-			float: left;
-			margin-top: 60px;
-			margin-left: -105px;
+			margin-top: -50px;
 		}
 		#pd-line{
 			float: bottom;
@@ -52,11 +45,20 @@
 		.tou #copy{
 			font-size: 13px;
 		}
-		#content{
+		#box{
 			margin-top: 5px;
 			background-color: #F0F0F0;
+			padding-bottom: 5px;
+			height: 400px;
 		}
-		#loginbutton{
+		#content{
+			background-color: white;
+			width: 50%;
+			height: 405px;
+			padding-right: 50px;
+			border-right: 1px dotteds black;
+		}
+		#registerbutton{
 			display: block;
 			border-radius: 10px;
 			padding: 15px 20px;
@@ -67,17 +69,28 @@
 			text-align: center;
 			border: 2px solid black;
 		}
-		#loginbutton:hover, #loginbutton:active{
+		#registerbutton:hover, #registerbutton:active{
 			background-color: #FFCCFF;
 		}
-		#registerbutton{
+		#loginbutton{
 			font-family: Verdana, Georgia, Times New Roman;
 			float: right;
 			margin-right: 230px;
 			margin-top: -60px;
 		}
-		#registerbutton:hover, #registerbutton:active{
+		#loginbutton:hover, #loginbutton:active{
 			text-decoration: underline;
+		}
+		.nav-imglist{
+			float: right;
+			margin-top:-400px;
+		}
+		.face {
+			width: 110px;
+			height: 110px;
+			-moz-border-radius: 100px;
+			-webkit-border-radius: 100px;
+			border-radius: 100px;
 		}
 		#shopcart{
 			border-left: 1px solid gray;
@@ -86,4 +99,60 @@
 			float: right;
 			margin-top: -100px;
 			background-repeat: no-repeat;
+		}
+		p#desc-facename{
+			font-size:20px; 
+			font-family:Georgia, Verdana, Times New Roman; 
+			margin-left: 200px;
+			margin-top: -100px;
+		}
+		p#desc-faceshop{
+			font-size:15px; 
+			margin-left: 230px;
+			font-family:Georgia, Verdana, Times New Roman; 
+		}
+		p#desc-faceaddr{
+			font-size:15px; 
+			margin-left: 200px;
+			font-family:Georgia, Verdana, Times New Roman; 
+		}
+		#reg-site{
+			width: 45%;
+			float: right;
+			margin-top: -420px;
+		}
+		.regsite{
+			margin-top: 100px;
+			margin-left: 50px;
+		}
+		._sign{
+			float: left;
+			font-family: Georgia, Verdana, Times New Roman; 
+			color: #500000;
+		}
+		.tbl-signup td{
+			padding-bottom: 5px;
+		}
+		.lbl{
+			padding-right: 50px;
+		}
+		.sign-up{
+			margin-top: 50px;
+		}
+		#log-site{
+			float: right;
+			width: 550px;
+			margin-top: -100px;
+		}
+		.login{
+			float: right;
+			margin-right: 100px;
+			margin-top: -23px;
+		}
+		.tbl-login td{
+			padding-right: 40px;
+		}
+		#log-site h3{
+			font-family: Georgia, Verdana, Times New Roman; 
+			color: #500000;
 		}
