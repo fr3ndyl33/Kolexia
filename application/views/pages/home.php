@@ -1,6 +1,6 @@
 <!--Home Page Content-->
 <a href="" class="cartsite"><div id="shopcart">
-	<img src="images/cart.png" width="35px" height="35px" style="padding-left:20px; padding-top:30px">
+	<img src="images/cart.png" width="50px" height="50px" class="cart">
 </div></a>
 
 <div id="log-site">
@@ -12,29 +12,29 @@
 				<td><input type="text" name="userlogin" size="20" maxlength="20" value="Password"></td>
 			</tr>
 		</table>
-		<input type="submit" name="login" value="login" class="login">
+		<input type="submit" name="login" value="Sign In" class="login">
 	</form>
 </div>
 <div id="box">
 	<div id="content">
 		<div class = "image">
-			<img src="images/sandal.jpg" width="80%" height="70%" alt="imagesandal" class="sandal" />
+			<img src="images/sandal.jpg" alt="imagesandal" class="sandal" />
 		</div>
 		<div id = "desc">
-		<div class="circle">
-			<img src="images/face.jpg" class="face" />	
-		</div>
-			<p id="desc-facename">Jessie</p>
-			<p id="desc-faceshop">BooBoo Shop</p>
-			<p id="desc-faceaddr">61 Avenue Street</p>
-			<div class="nav-imglist">
-				<ul class="list-item" type="none">
-					<li class="list1"><img src="images/1.jpg" width="90px" height="90px"></li>
-					<li class="list2"><img src="images/2.jpg" width="90px" height="90px"></li>
-					<li class="list3"><img src="images/3.jpg" width="90px" height="90px"></li>
-					<li class="list4"><img src="images/4.jpg" width="90px" height="90px"></li>
-				</ul>
-			</div>
+				<div class="circle">
+					<img src="images/face.jpg" class="face" />	
+				</div>
+				<p id="desc-facename">Jessie</p>
+				<p id="desc-faceshop">BooBoo Shop</p>
+				<p id="desc-faceaddr">61 Avenue Street</p>
+			<div class="nav-descface"></div>
+			<ul class="list-item" type="none">
+				<li class="list1"><img src="images/1.jpg" width="90px" height="90px"></li>
+				<li class="list2"><img src="images/2.jpg" width="90px" height="90px"></li>
+				<li class="list3"><img src="images/3.jpg" width="90px" height="90px"></li>
+				<li class="list4"><img src="images/4.jpg" width="90px" height="90px"></li>
+			</ul>
+			<div class="nav-imglist"></div>
 		</div>
 	</div>
 	
